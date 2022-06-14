@@ -162,6 +162,7 @@ border: 1px solid #ECECEC;
 .hero{
     background-color: var(--dark-background-color);
     text-align: center;
+    padding-top: 200px;
    
 
 }
@@ -173,11 +174,12 @@ border: 1px solid #ECECEC;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    padding-top: 200px;
-    padding-bottom: 30px;
-        
+    margin-bottom: 30px;
+             
     }
 
+
+    /* =========================================== */
 .hero-button{
     background-color: var(--accent-color);
     color: var(--white-color);
@@ -194,7 +196,7 @@ border: 1px solid #ECECEC;
     cursor: pointer;
     padding: 10px 32px;
     margin-bottom: 200px;
-    /* margin-left: 700px; */
+    
 }
 
 .hero-button:hover,
@@ -203,6 +205,10 @@ border: 1px solid #ECECEC;
 }
 
 /* --------------------Section-Features-------------------- */
+
+.features{
+    padding-top: 94px;
+}
 .features-title{
     color: var(--title-color);
     font-weight: 700;
